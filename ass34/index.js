@@ -6,6 +6,6 @@ for (let i = start; i < mix.length; i++) {
     }
 }
 // Output
-2
-3
-4
+// 2
+// 3
+// 4

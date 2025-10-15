@@ -1,0 +1,209 @@
+nav {
+background-color: #f8f9fa;
+padding: 10px 20px;
+}
+
+.navbar {
+list-style: none;
+display: flex;
+gap: 30px;
+margin: 0;
+padding: 0;
+justify-content: center;
+}
+
+.navbar a {
+text-decoration: none;
+color: #333;
+font-size: 18px;
+transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+font-weight: bold;
+text-decoration: underline;
+color: #007bff;
+cursor: pointer;
+}
+
+.about-me {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 40px;
+background-color: #f5f5f5;
+border-radius: 10px;
+}
+
+.profile-pic {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #007bff;
+}
+
+.about-text h2 {
+font-size: 24px;
+color: #333;
+margin-bottom: 10px;
+}
+
+.about-text p {
+font-size: 16px;
+line-height: 1.6;
+color: #555;
+}
+.skills-section {
+background-color: #f8f9fa;
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+}
+
+.skills-section h2 {
+margin-bottom: 20px;
+font-size: 24px;
+color: #333;
+}
+
+.skills-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.skill {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 120px;
+transition: transform 0.3s ease;
+}
+
+.skill:hover {
+transform: scale(1.1);
+}
+
+.skill img {
+width: 60px;
+height: 60px;
+margin-bottom: 10px;
+}
+
+.skill p {
+font-size: 16px;
+color: #555;
+margin: 0;
+}
+.projects-section {
+background-color: #f2f4f7;
+padding: 40px;
+border-radius: 10px;
+}
+
+.projects-section h2 {
+text-align: center;
+margin-bottom: 30px;
+font-size: 24px;
+color: #333;
+}
+
+.projects-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.project {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.project:hover {
+transform: scale(1.02);
+}
+
+.project h3 {
+color: #007bff;
+margin-bottom: 10px;
+}
+
+.project p {
+color: #555;
+font-size: 15px;
+line-height: 1.6;
+}
+.recommendations-section {
+background-color: #fdfdfd;
+padding: 40px;
+border-radius: 10px;
+}
+
+.recommendations-section h2 {
+text-align: center;
+font-size: 24px;
+margin-bottom: 20px;
+color: #333;
+}
+
+.recommendations-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+
+.recommendation {
+width: 80%;
+background-color: #f4f6f8;
+border-left: 6px solid #007bff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation p {
+font-style: italic;
+color: #555;
+margin-bottom: 10px;
+}
+
+.recommendation h4 {
+text-align: right;
+color: #007bff;
+margin: 0;
+}
+.add-recommendation {
+margin-top: 30px;
+text-align: center;
+}
+
+.add-recommendation textarea {
+width: 60%;
+height: 80px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+resize: none;
+margin-bottom: 10px;
+}
+
+.add-recommendation button {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.add-recommendation button:hover {
+background-color: #0056b3;
+}
+

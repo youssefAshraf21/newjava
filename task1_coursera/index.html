@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav>
+<ul class="navbar">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Project details</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+</ul>
+</nav>
+
+<section id="about" class="about-me">
+<img src="image/3465b166-0b92-482b-a610-cf076b0254c7.jfif" alt="Profile photo of Youssef Ashraf" class="profile-pic">
+<div class="about-text">
+    <h2>Youssef Ashraf</h2>
+    <p>
+    I’m a passionate front-end developer currently learning HTML, CSS, and JavaScript. 
+    I enjoy building clean, responsive websites and aim to grow my skills in full-stack development. 
+    I’m also interested in UI/UX design and creative web solutions.
+    </p>
+</div>
+</section>
+<section id="skills" class="skills-section">
+<h2>My Skills</h2>
+<div class="skills-container">
+    <div class="skill">
+    <img src="image/download.png" alt="HTML Logo">
+    <p>HTML</p>
+    </div>
+    <div class="skill">
+    <img src="image/download (1).png" alt="CSS Logo">
+    <p>CSS</p>
+    </div>
+    <div class="skill">
+    <img src="image/download (2).png" alt="JavaScript Logo">
+    <p>JavaScript</p>
+    </div>
+    <div class="skill">
+    <img src="image/download (3).png" alt="React Logo">
+    <p>React</p>
+    </div>
+    <div class="skill">
+    <img src="image/download.jfif" alt="Python Logo">
+    <p>Python</p>
+    </div>
+</div>
+</section>
+<section id="projects" class="projects-section">
+<h2>My Projects</h2>
+<div class="projects-container">
+
+    <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>
+        A responsive personal portfolio site built with HTML, CSS, and JavaScript, 
+        showcasing my projects, skills, and contact information.
+    </p>
+    </div>
+
+    <div class="project">
+    <h3>Weather App</h3>
+    <p>
+        A weather application using OpenWeather API that displays live weather data 
+        and a 5-day forecast for any city entered by the user.
+    </p>
+    </div>
+
+    <div class="project">
+    <h3>Chat Application</h3>
+    <p>
+        A real-time chat app built with JavaScript and WebSockets, allowing users 
+        to communicate instantly through a modern web interface.
+    </p>
+    </div>
+
+</div>
+</section>
+<section id="recommendations" class="recommendations-section">
+<h2>Recommendations</h2>
+<div class="recommendations-container">
+
+    <div class="recommendation">
+    <p>
+        "Youssef is a dedicated developer who consistently delivers high-quality work. 
+        His attention to detail and passion for clean, maintainable code make him a great teammate."
+    </p>
+    <h4>– Sarah Ahmed, Front-End Engineer</h4>
+    </div>
+
+    <div class="recommendation">
+    <p>
+        "Working with Youssef on several projects has been a pleasure. 
+        He brings creative ideas to every challenge and always meets deadlines."
+    </p>
+    <h4>– Ahmed Mahmoud, Project Manager</h4>
+    </div>
+
+    <div class="recommendation">
+    <p>
+        "Youssef’s problem-solving skills and technical understanding make him stand out. 
+        He is quick to learn and always ready to help others."
+    </p>
+    <h4>– Mariam Hossam, UI/UX Designer</h4>
+    </div>
+
+</div>
+</section>
+<section id="recommendations" class="recommendations-section">
+<h2>Recommendations</h2>
+<div id="recommendations-container">
+    <div class="recommendation">
+    <p>"Youssef is an excellent collaborator with great attention to detail."</p>
+    <h4>– Sarah Ahmed</h4>
+    </div>
+    <div class="recommendation">
+    <p>"His ability to solve problems quickly is impressive!"</p>
+    <h4>– Ahmed Mahmoud</h4>
+    </div>
+    <div class="recommendation">
+    <p>"Youssef always brings innovative ideas to every project."</p>
+    <h4>– Mariam Hossam</h4>
+    </div>
+</div>
+
+<!-- Add new recommendation form -->
+<div class="add-recommendation">
+    <textarea id="new-recommendation" placeholder="Write a recommendation..."></textarea>
+    <button onclick="addRecommendation()">Submit</button>
+</div>
+</section>
+
+
+<script src="index.js"></script>
+</body>
+</html>
